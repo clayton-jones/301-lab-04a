@@ -1,0 +1,20 @@
+* {
+  outline: rgba(0, 0, 0, 0.336) 1px solid;
+  text-align: center;
+}
+
+body {
+  width: 460px;
+  height: 800px;
+  margin: auto;
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template: 10% 15% 15% 15% 15% 15% 15% / 1fr 1fr;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
